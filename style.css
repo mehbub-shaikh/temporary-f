@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  margin: 0px 70px 0px 70px;
+  background-color: white;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 70px;
+  right: 70px;
+  background-color: white;
+}
+
+.nav {
+  height: 40px;
+  display: flex;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.left {
+  width: 20%;
+}
+.left h1 {
+  font-size: 2rem;
+}
+
+.mid {
+  padding-top: 10px;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.right {
+  width: 20%;
+  padding-top: 10px;
+  column-gap: 10px;
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: flex-end;
+}
+
+.right1 {
+  height: 15px;
+  width: 17px;
+  background-image: url(instagram.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.right2 {
+  height: 17px;
+  width: 18px;
+  background-image: url(telegram.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.right3 {
+  background-image: url(twitter.png);
+  height: 15px;
+  width: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.right4 {
+  background-image: url(youtube.png);
+  height: 15px;
+  width: 25px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.content {
+  height: 400px;
+  width: 100%;
+  border: 1px solid blue;
+  padding-top: 20px;
+  background-image: url(./1534864.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.box1 {
+  height: 400px;
+  width: 350px;
+  
+}
+.box2 {
+  height: 400px;
+  width: 350px;
+  
+}
+.box3 {
+  height: 400px;
+  width: 350px;
+  
+}
+
+.first1,
+.second1,
+.third1 {
+  
+  height: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 33333;
+}
+/* background img's */
+.first1 {
+  background-image: url(./sunrise.jpg);
+}
+.second1 {
+  background-image: url(./waterfall.jpg);
+}
+.third1 {
+  background-image: url(./Natural\ Places\ \(6\).jpg);}
+
+/* background img's */
+
+.first2,
+.second2,
+.third2 {
+  
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  row-gap: 30px;
+  padding: 10px;
+}
+
+.f-btn {
+  background-color: brown;
+  width: 100px;
+  color: rgb(238, 175, 59);
+}
