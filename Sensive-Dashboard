@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Travels</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="left">
+                <h1>Sensive</h1>
+            </div>
+            <div class="mid">
+                <a href="">Home</a>
+                <a href="">Archive</a>
+                <a href="">Category</a>
+                <a href="">Pages</a>
+                <a href="">Contact</a>
+            </div>
+            <div class="right">
+                <div class="right1"></div>
+                <div class="right2"></div>
+                <div class="right3"></div>
+                <div class="right4"></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="content">
+            <div>
+                <h3>Tours & Travels</h3>
+            </div>
+            <div>
+                <h1>Amazing Places On Earth</h1>
+            </div>
+            <div>december 12, 2050</div>
+        </div>
+    </div>
+
+    <div class="boxes">
+        <div class="box1">
+            <div class="first1"></div>
+            <div class="first2">
+                <button class="f-btn">Book Now</button>
+                <h3>New york Touring week's continued the evolution</h3>
+                <p>2 days Ago</p>
+
+
+            </div>
+        </div>
+        <div class="box2">
+            <div class="second1"></div>
+            <div class="second2">
+                <button class="f-btn">Book Now</button>
+                <h3>New york Touring week's continued the evolution</h3>
+                <p>2 days Ago</p>
+
+
+            </div>
+        </div>
+        <div class="box3">
+            <div class="third1"></div>
+            <div class="third2">
+                <button class="f-btn">Book Now</button>
+                <h3>New york Touring week's continued the evolution</h3>
+                <p>2 days Ago</p>
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
